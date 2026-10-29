@@ -34,4 +34,4 @@ Referências: [JobInfo.Builder e permissões de rede](https://developer.android.
 
 ## Supabase
 
-A integração com banco remoto gravável continua separada. A migração em `supabase/migrations` está preparada; não comprova implantação. É preciso autenticar a conta, selecionar um projeto e testar permissões de acesso. Esta versão não envia ocorrências a Supabase. Não há chave administrativa embutida, banco privado exposto no GitHub nem alegação de conexão remota antes da validação.
+Na versão 1.3.0, o Supabase foi conectado e testado com contas descartáveis. O aplicativo consulta indicadores revisados e permite relatos individuais após login opcional e confirmação. RLS isola as contas; os relatos não alimentam automaticamente as detecções. A chave administrativa fica somente no servidor. O GitHub não contém dados privados de usuários. Consulte [CLOUD.md](CLOUD.md), incluindo os limites de entrega de email para uso público.

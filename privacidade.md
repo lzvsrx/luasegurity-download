@@ -1,10 +1,16 @@
 # Privacidade
 
-O Luasegurity 1.2.0 usa internet para consultar a base pública assinada hospedada no GitHub. Não envia conteúdo de arquivos, inventário de aplicativos, conversas ou ocorrências. Não usa anúncios, contas, identificadores publicitários ou telemetria adicionada. O serviço de hospedagem recebe dados normais de conexão, como IP e User-Agent.
+O Luasegurity 1.3.0 usa internet para consultar a base pública assinada do GitHub e, quando solicitado, acessar o Supabase. Não envia conteúdo de arquivos, inventário ou conversas. Conta e relatos são opcionais; as análises locais funcionam sem login. Não usa anúncios, identificadores publicitários ou telemetria adicionada. Os serviços recebem dados normais de conexão, como IP e User-Agent.
 
 Atualizações da base são agendadas diariamente em rede não tarifada pelo Android e podem ser desligadas em Cuidados → Atualizações e memória local. A consulta manual usa a conexão disponível. INTERNET e ACCESS_NETWORK_STATE permitem o download e agendamento; RECEIVE_BOOT_COMPLETED permite persistir o agendamento após reinício. A base é assinada e somente dados são atualizados. Veja [UPDATES.md](UPDATES.md).
 
-A memória SQLite privada guarda códigos fixos de falha ou correspondência conhecida, quantidade de ocorrências e avaliações de utilidade das orientações. Não guarda nomes ou caminhos de arquivos, textos de conversa ou lista de aplicativos nessa tabela. Pode ser apagada separadamente pelo painel de atualizações. Não há sincronização de ocorrências com Supabase nesta versão.
+A memória SQLite privada guarda códigos fixos de ocorrência, contagens e avaliações. Não guarda nomes ou caminhos de arquivos, conversas ou inventário nessa tabela. Pode ser apagada separadamente e não é enviada automaticamente ao Supabase.
+
+O login opcional envia seu email ao Supabase Auth para criar/acessar a conta. Um relato exige confirmação individual: o app envia somente o código escolhido, sem hash ou arquivo; o servidor associa dono, horário e status não revisado. Uma conta não pode consultar relatos de outra ou aprovar indicadores. Há limite de 20 envios por conta/dia UTC, inclusive após apagar relatos.
+
+Android 6 ou superior guarda a sessão criptografada com AES-GCM e chave do Android Keystore, fora dos relatórios. Android 5 mantém consulta pública e funções locais. Email e código não são gravados no histórico; o email pode permanecer em memória no formulário durante o uso. A tela de nuvem restringe capturas conforme os recursos do sistema.
+
+É possível apagar relatos, encerrar sessão ou excluir a própria conta e dados associados com confirmação. Encerrar sessão, limpar dados ou desinstalar o app não exclui a conta no servidor. Os indicadores públicos permanecem. Veja [CLOUD.md](CLOUD.md), incluindo os limites de entrega de email.
 
 Uma análise lê nomes de pacotes, rótulos, permissões solicitadas e origem de instalação dos aplicativos visíveis. Salva o resultado e um histórico limitado no armazenamento privado do próprio app. Arquivos são lidos somente após seleção pelo seletor do Android; seu conteúdo não é copiado para armazenamento do app.
 
