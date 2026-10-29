@@ -1,1 +1,1 @@
-8f8d3d6e0a90a1e11e5c13fc87deb33af8a3f5dc67387a131970754ecdf696b4  Luasegurity-1.3.1.apk
+3d07fd68a869dd7a33f1367f10c6d8b8fde1dfd781eac5ef107379c415171ed9  Luasegurity-1.3.2.apk

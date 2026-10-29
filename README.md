@@ -2,7 +2,7 @@
 
 Criador e marca dona do aplicativo: **lzworldstech**.
 
-Página estática e APK experimental do Luasegurity 1.3.1, hospedados no GitHub Pages:
+Página estática e APK experimental do Luasegurity 1.3.2, hospedados no GitHub Pages:
 
 **https://lzvsrx.github.io/luasegurity-download/**
 
