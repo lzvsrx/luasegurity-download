@@ -1,6 +1,6 @@
 # Luasegurity — distribuição pública
 
-Página estática e APK experimental do Luasegurity 1.1.0, hospedados no GitHub Pages:
+Página estática e APK experimental do Luasegurity 1.1.1, hospedados no GitHub Pages:
 
 **https://lzvsrx.github.io/luasegurity-download/**
 
