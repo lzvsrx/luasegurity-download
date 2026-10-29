@@ -1,6 +1,8 @@
 # Luasegurity — distribuição pública
 
-Página estática e APK experimental do Luasegurity 1.1.1, hospedados no GitHub Pages:
+Criador e marca dona do aplicativo: **lzworldstech**.
+
+Página estática e APK experimental do Luasegurity 1.1.2, hospedados no GitHub Pages:
 
 **https://lzvsrx.github.io/luasegurity-download/**
 
