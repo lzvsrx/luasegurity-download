@@ -2,7 +2,7 @@
 
 Criador e marca dona do aplicativo: **lzworldstech**.
 
-Página estática e APK experimental do Luasegurity 1.1.2, hospedados no GitHub Pages:
+Página estática e APK experimental do Luasegurity 1.2.0, hospedados no GitHub Pages:
 
 **https://lzvsrx.github.io/luasegurity-download/**
 
@@ -16,6 +16,6 @@ Para atualizar o aplicativo, substitua o APK em `downloads/`, recalcule seu SHA-
 
 ## Limites
 
-O APK é de desenvolvimento e a versão é experimental. A IA é simbólica, com regras fixas; não é um modelo generativo. A base de 31 hashes é pequena e estática. Não há garantia de detectar todos os vírus, de ser a solução mais segura do mundo ou de funcionar em todos os modelos. A integração entre apps depende das permissões e interfaces do Android.
+O APK é de desenvolvimento e a versão é experimental. A IA é simbólica, com regras fixas; não é um modelo generativo. A base inicial possui 31 hashes e pode receber revisões assinadas. Não há garantia de detectar todos os vírus, de ser a solução mais segura do mundo ou de funcionar em todos os modelos. A integração entre apps depende das permissões e interfaces do Android.
 
 Os indicadores ESET acompanham o APK sob BSD-2-Clause; a licença também está em `downloads/ESET-LICENSE.txt`. O projeto não é afiliado à ESET.
